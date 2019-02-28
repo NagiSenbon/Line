@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def LineDetection():
-      img_1 = input('Input image: ')
+      img_1 = input('Your image: ')
       print('OK')
       img_2 = cv2.imread(img_1, cv2.IMREAD_GRAYSCALE)
       img = cv2.Canny(img_2, 50, 200)
